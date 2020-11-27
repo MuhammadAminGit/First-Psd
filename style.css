@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@font-face {
+  font-family: myFont;
+  src: url(fonts/EurostileNextLTPro-Light.otf);
+}
+@font-face {
+  font-family: viva;
+  src: url(font/VivaldiStd.otf);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	background-image: url("images/wrapper.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 3500px;
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 60px;
+	margin: auto;
+}
+.toolbar{
+	padding-bottom: 10px;
+}
+.toolink{
+	text-decoration: none;
+	font-family: Abel;
+	padding-left: 90px;
+}
+.toolink a{
+	color: #fff;
+}
+.head1{
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid white;
+	font-size: 20px;
+}
+.wrapper{
+	background-color: #fff;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.logo{
+	margin-left: 20px;
+	display: flex;
+	font-family: myFont, sans-serif;
+	color: 	#A336A3;
+	line-height: 1px;
+}
+.text{
+	display: block;
+	padding-top: 25px;
+	margin-left: 20px;
+}
+.text p{
+	color: #4E4A4B;
+}
+.diamonds img{
+	object-fit: cover;
+	width: 100%;
+	height: 100px;
+}
+.cart{
+	display: flex;
+}
+.cart img{
+	height:100px;
+	margin-left: 40px;
+}
+.cart .text1{
+	display: block;
+	line-height: 4px;
+	padding-top: 35px;
+	font-family: myFont, calibri;
+	margin-left: 20px;
+}
+.cart .stext1{
+	color: 	#A336A3;
+	font-size: 14.5px;
+	font-weight: 500;
+}
+.cart .stext3{
+	text-decoration: underline;
+	color: #CE38CB;
+	cursor: pointer;
+}
+.navbar{
+	background-color: #4E4A4B;
+	text-align: center;
+	font-family: myFont;
+	font-size: 20px;
+}
+.navrow{
+	width: 100%;
+}
+.navbar a{
+	color: #fff;
+}
+.navbar a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+.navbutton:hover{
+	background-color: #A637A9;
+	border-radius: 10px;
+}
+.banner .main img{
+	height: 370px;
+	width: 100%;
+	object-fit:cover;
+	padding: 30px;
+	border-radius: 50px;
+}
+.pictext{
+	position: absolute;
+    bottom: 10px;
+    right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: viva,calibri;
+    font-size: 72px;
+    color: #600A07;
+}
+.sidebar1{
+	height: 90px;
+	width:285px;
+	margin:20px;
+	padding: 20px 0px 0;
+    line-height: 1px;
+    font-family: myFont;
+    color: #fff;
+    background-color: #AF47AD;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.bootom1{
+	line-height: 30px;
+	background-color: #4E4A4B!important;
+	border-bottom-left-radius: 10px;
+	width: 285px;
+	padding-left: 15px;
+	color:#fff;
+	border-bottom-right-radius: 10px;
+	text-decoration: underline;
+}
+.sidebar2{
+	font-family: myFont;
+}
+.sidebar2 img{
+	height: 180px;
+	width: 285px;
+	object-fit: cover;
+	margin:20px;
+	border-radius: 20px;
+	border:1px solid black;
+}
+.sidebar2 .bootom2{
+	background-color: #4E4A4B!important;
+	border-bottom-left-radius: 10px;
+	width: 285px;
+	padding-left: 15px;
+	color:#fff;
+	border-bottom-right-radius: 10px;
+	margin-left: 20px;
+	position: absolute;
+	bottom:0px;
+	padding:6px;
+}
+.sidebar2 .sidetex{
+	position: absolute;
+	top:20px;
+	padding-left: 30px;
+	line-height: 15px;
+}
+.sidetex .dtext1{
+	color: #A336A3;
+	padding-left: 100px;
+	padding-top: 5px;
+	font-size: 18px;
+}
+.sidetex .dtext2{
+	padding-left: 160px;
+}
+.sidetex .dtext3{
+	font-size: 35px;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+.sidetex .dtext4{
+	text-decoration: underline;
+	color: #CE38CB;
+	cursor: pointer;
+	text-align: right;
+	padding-top: 20px;
+}
+.rings{
+	background-image: url("images/mainad.jpg");
+	font-family: myFont;
+	height: auto;
+	width: 93%;
+	object-fit:cover;
+	padding: 5px;
+	border-radius: 15px;
+	margin: 0px 0px 20px 30px;
+}
+.rings span{
+	color: #A336A3;
+}
+.rings .img1{
+	margin-left: 30px;
+	object-fit:cover;
+	box-shadow: 2px 2px 4px grey;
+}
+.rings .img2{
+	margin-left: 20px;
+	object-fit:cover;
+	box-shadow: 2px 2px 4px grey;
+}
+.rings .img3{
+	margin-left: 20px;
+	object-fit:cover;
+	box-shadow: 2px 2px 4px grey;
+}
+.rings .img4{
+	margin-left: 20px;
+	object-fit:cover;
+	box-shadow: 2px 2px 4px grey;
+}
+.rings p{
+	font-size: 18px;
+	padding-top: 5px;
+}
+.rings p span{
+	color: black;
+}
+.rings .adp1{
+	margin-left: 35px;
+}
+.rings .adp1 span{
+	margin-left: 20px;
+}
+.rings .adp2,
+.rings .adp3,
+.rings .adp4{
+	margin-left: 25px;
+}
+.rings .adp2 span,
+.rings .adp3 span,
+.rings .adp4 span{
+	margin-left: 20px;
+}
+.mainalt{
+	border-right:1px solid black;
+	margin-left: 35px;
+	padding-right: 20px;
+}
+.mainalt a,
+.mainart a,
+.mainaltr a{
+	color: #A336A3;
+	text-decoration: underline;
+}
+.mainart{
+	margin-left: 20px;
+}
+.mainaltr{
+	border-right:1px solid black;
+	margin-left: 25px;
+	padding-right: 20px;
+}
+.content1 h3{
+	font-family: myFont;
+	padding-left: 35px;
+}
+.content1 h3 span{
+	color: #A336A3;
+}
+.content1 p{
+	font-family: myFont;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.sidebar3 img{
+	height: 215px;
+	width: 285px;
+	object-fit: cover;
+	margin:0 20px 20px 20px;
+	border-radius: 20px;
+	border:1px solid black;
+}
+.sidebar3 .bootom2{
+	background-color: #4E4A4B!important;
+	border-bottom-left-radius: 10px;
+	width: 285px;
+	padding-left: 15px;
+	color:#fff;
+	border-bottom-right-radius: 10px;
+	margin-left: 20px;
+	position: absolute;
+	bottom:0px;
+	padding:6px;
+}
+.sidebar3 .sidetex1{
+	position: absolute;
+	top:150px;
+	padding-left: 30px;
+	line-height: 15px;
+	color: #600A07;
+	font-size: 35px;
+	font-family: viva;
+}
+.sidebar3 .sidetex2{
+	position: absolute;
+	top:50px;
+	line-height: 37px;
+	padding-left: 40px;
+	color: #fff;
+	font-size: 40px;
+	font-family: Calibri;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: red;
+}
+.sidebar3 .sidetex3{
+	position: absolute;
+	top:30px;
+	line-height: 35px;
+	padding-left: 40px;
+	color: #A336A3;
+	font-size: 35px;
+	font-family: myFont;
+	text-shadow: 1px 1px 4px white;
+}
+footer{
+	background-color: #D745D4;
+	color: #fff;
+	padding: 15px;
+}
+footer span a{
+	color: #fff;
+	text-decoration: underline;
+}
+.links{
+	text-decoration: none;
+	font-family: Abel;
+	padding-left: 100px;
+}
+.links a{
+	color: #fff;
+}
+.foot1{
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid white;
+}
+.wd{
+	border:none!important;
+}
+.fbot{
+	height: 100px;
+	width: 219;
+	padding-left: 50px;
+	margin-bottom: 30px;
+}
